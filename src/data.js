@@ -6,7 +6,7 @@ export const projects = [
     description:
       "A dynamic, Unity-built VR experience for Meta Quest uses NASA data to depict ocean pollution and let users interactively help clean the environment to raise marine-life awareness",
     image: "https://img.youtube.com/vi/jx60oGH7uQs/hqdefault.jpg",
-    link: "https://pitch.com/v/ecodive-ze4hjz/7d291664-99fa-4b43-acb4-13985563911a",
+    link: "https://www.spaceappschallenge.org/2025/find-a-team/team-ocean-blue/?tab=project",
   },
   {
     title: "Diet Planner",
