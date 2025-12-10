@@ -151,7 +151,7 @@ export const work = [
 ];
 
 export const awards = [
- "FBLA Parliamentary Procedure 2nd @ States and Nationals Qualifier (2025)",
+"FBLA Parliamentary Procedure 2nd @ States and Nationals Qualifier (2025)",
 "Above and Beyond Human Collaboration award, MIT BWSI (2025)",
 "Best adaptation (3d FPV) award, MIT BWSI (2025)",
 "Adversarial Design Runner-up award, MIT BWSI (2025)",
@@ -170,6 +170,6 @@ export const hobbies = [
   "Card Magic",
   "Lego",
   "Origami",
-  "Stop motion video"
+  "Stop motion video",
   "Reading"
 ];
