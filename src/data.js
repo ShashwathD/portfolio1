@@ -1,8 +1,8 @@
 export const projects = [
   {
-    title: "EcoDive",
+    title: "EcoDive - NASA Space Apps Global nominee",
     subtitle: "Unity, C# .net, Meta Quest",
-    info: "NASA Global nominee 2025",
+    info: "NASA Space Apps Challenge Global nominee 2025",
     description:
       "A dynamic, Unity-built VR experience for Meta Quest uses NASA data to depict ocean pollution and let users interactively help clean the environment to raise marine-life awareness",
     image: "https://img.youtube.com/vi/jx60oGH7uQs/hqdefault.jpg",
@@ -40,8 +40,8 @@ export const projects = [
     info: "AP CS Project - 2025",
     description:
       "An AR iOS app that builds a personalized AR art gallery using SwiftUI, SceneKit, ARKit, and a Spring Boot backend",
-    image: "./foodsio.jpg",
-    link: "https://devpost.com/software/foodsio",
+    image: "https://img.youtube.com/vi/Cn7y6V-KdRk/hqdefault.jpg",
+    link: "https://youtube.com/shorts/Cn7y6V-KdRk",
   },
   {
     title: "8Dify",
@@ -54,22 +54,6 @@ export const projects = [
   },
 ];
 
-export const testimonials = [
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "./Roadio.jpeg",
-    name: "Roadio",
-    company: "Roadio",
-  },
-  {
-    quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "./ios.jpg",
-    name: "Self Employed",
-    company: "Self Employed",
-  },
-];
 
 export const skills = [
   "Swift, SwiftUI, XCode",
@@ -108,7 +92,7 @@ export const MLprojects = [
     subtitle: "Science Internship Fair 2024",
     description:
       "Created a dual-agent system to control the drone and another to monitor it—using ArduPilot for flight control and Gazebo for simulation",
-    image: "./sciencefair23.png",
+    image: "./drone-sip.png",
     link: "https://docs.google.com/presentation/d/1B4Rikq8fIZLxuSw2LVKkMyy3BPcfZ0CvlNMm17j6UWw/edit?slide=id.g2f0af01c0da_0_22#slide=id.g2f0af01c0da_0_22",
   }
 ];
@@ -131,15 +115,6 @@ export const CircuitProjects = [
     link: "https://shashwathd.github.io/ShashwathDineshBSEPortfolio/",
   },
 
-
-  {
-    title: "VEX Robotics",
-    subtitle: "",
-    description:
-      "Built 2019-2020 VRC Robotic challenge robot that can stack a large number of cubes. ",
-    image: "./VEX.jpg",
-    link: "https://www.vexrobotics.com/v5/competition/vrc-current-game",
-  }
 ];
 
 export const work = [
@@ -188,51 +163,13 @@ export const awards = [
 "Taekwondo 2nd degree Black Belt (2024)"
 ];
 
-export const images = [
-  {
-    image:  "./supernova1.jpeg",
-    title: "Girls working in hackathon"
-  },
-  {
-    image:  "./supernova2.jpeg",
-    title: "Motivational Keynote Speaker"
-  },
-  {
-    image:  "./supernova4.jpeg",
-    title: "ML Workshop"
-  },
-  {
-    image:  "./supernova5.jpeg",
-    title: "Sleep Workshop"
-  },
-
-  {
-    image:  "./supernova7.jpeg",
-    title: "Mentoring in hackathon"
-  },
-  {
-    image:  "./supernova8.jpeg",
-    title: "Closing note"
-  },
-  {
-    image:  "./supernova9.jpeg",
-    title: "Awards ceremony"
-  },
-  {
-    image:  "./supernova3.jpeg",
-    title: "Awards ceremony"
-  },
-  {
-    image:  "./supernova10.jpg",
-    title: "Supernova Hackathon"
-  },
-];
 
 export const hobbies = [
   "Carnatic Vocal music (Learning carnatic vocal music for the past 10 years)",
   "Taekwondo 2nd degree Black Belt (Testing for 3rd degree Black belt, learning for the past 10 years)",
- "Card Magic",
+  "Card Magic",
+  "Lego",
   "Origami",
-  "Reading",
-  "Running & Strength training (Participated in cross country and track & field)"
+  "Stop motion video"
+  "Reading"
 ];
