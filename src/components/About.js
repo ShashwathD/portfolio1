@@ -22,8 +22,8 @@ export default function About() {
                Junior @ Lynbrook High School
             </h2>
             <p className="mb-8 leading-relaxed text-gray-300">
-            I am deeply passionate about engineering & computer science. I began developing iOS apps & games in seventh grade. 
-            I taught myself Machine Learning by completing machine learning courses and started creating my own machine learning algorithms and models to compliment the iOS apps I've been developing. 
+           I am deeply passionate about engineering and computer science, beginning my journey in seventh grade by building iOS apps and games. Since then, I’ve developed multiple apps and games, taught myself machine learning, created custom algorithms, and expanded into spatial computing through augmented reality and virtual reality projects. 
+           Robotics has also become a major area of interest for me. At my core, I’m a creator who loves using technology to solve challenges and bring innovative ideas to life. 
             </p>
             <div className="flex justify-center">
               <a
