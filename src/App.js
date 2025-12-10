@@ -4,7 +4,6 @@ import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
 import Projects from "./components/Project";
 import Skills from "./components/Skills";
-import Testimonials from "./components/Testimonials";
 import Work from "./components/Work";
 import Awards from "./components/Awards";
 import SocialFollow from "./components/SocialFollow"
