@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="IBDiary">
+  <rect width="640" height="360" fill="#0d1730"/>
+  <text x="44" y="120" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="66" font-weight="800" fill="#f0f3f9" letter-spacing="-1">IBDiary</text>
+  <text x="46" y="158" font-family="Consolas, ui-monospace, monospace" font-size="22" fill="#60db78">IBD Companion · iOS</text>
+  <path d="M40 250 H210 L242 190 L286 312 L326 214 L356 250 H600" fill="none" stroke="#60db78" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

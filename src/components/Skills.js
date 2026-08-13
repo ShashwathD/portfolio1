@@ -1,28 +1,34 @@
-import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
 import React from "react";
-import { skills } from "../data";
+import { skills, hobbies } from "../data";
 
 export default function Skills() {
   return (
-    <section id="skills">
-      <div className="container px-5 py-10 mx-auto">
-        <div className="text-center mb-20">
-          <ChipIcon className="w-10 inline-block mb-4" />
-          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
-            Skills &amp; Technologies
-          </h1>
-          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-          </p>
+    <section className="block" id="skills">
+      <div className="wrap">
+        <div className="sec-head reveal">
+          <span className="idx mono">05.</span>
+          <h2>Skills &amp; tools</h2>
+          <span className="rule"></span>
         </div>
-        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
-          {skills.map((skill) => (
-            <div key={skill} className="p-2 sm:w-1/2 w-full">
-              <div className="bg-gray-800 rounded flex p-4 h-full items-center">
-                <BadgeCheckIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
-                <span className="title-font font-medium text-white">
-                  {skill}
-                </span>
-              </div>
+        <div className="skills-wrap reveal">
+          {skills.map((s) => (
+            <div className="skill" key={s.name}>
+              <i className={s.icon}></i> {s.name}
+            </div>
+          ))}
+        </div>
+
+        <div className="sec-head reveal" style={{ marginTop: 56 }} id="hobbies">
+          <span className="idx mono">05b.</span>
+          <h2>Hobbies</h2>
+          <span className="rule"></span>
+        </div>
+        <div className="hobbies-grid">
+          {hobbies.map((h) => (
+            <div className="hobby reveal" key={h.title}>
+              <i className={h.icon}></i>
+              <h4>{h.title}</h4>
+              <p>{h.detail}</p>
             </div>
           ))}
         </div>

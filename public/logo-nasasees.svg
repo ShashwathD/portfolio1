@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-label="NASA SEES">
+  <rect width="100" height="100" rx="20" fill="#ffffff"/>
+  <g fill="none" stroke="#14224d" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M50 20 C61 31 63 46 59 62 H41 C37 46 39 31 50 20 Z"/>
+    <path d="M41 58 L30 68 L39 65"/>
+    <path d="M59 58 L70 68 L61 65"/>
+  </g>
+  <circle cx="50" cy="42" r="6" fill="#12b24f"/>
+  <path d="M45 64 L50 80 L55 64" fill="none" stroke="#12b24f" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

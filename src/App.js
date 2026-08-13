@@ -1,40 +1,42 @@
-import React from "react";
-import About from "./components/About";
-import Contact from "./components/Contact";
+import React, { useEffect } from "react";
 import Navbar from "./components/Navbar";
-import Projects from "./components/Project";
-import Skills from "./components/Skills";
-import Work from "./components/Work";
+import Hero from "./components/Hero";
+import Projects from "./components/Projects";
+import Experience from "./components/Experience";
 import Awards from "./components/Awards";
-import SocialFollow from "./components/SocialFollow"
-import Activities from "./components/Activities"
-import Hobbies from "./components/Hobbies"
+import Skills from "./components/Skills";
+import Contact from "./components/Contact";
 
 export default function App() {
+  // Scroll-reveal animation for elements with the .reveal class.
+  useEffect(() => {
+    const els = document.querySelectorAll(".reveal");
+    const io = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) {
+            e.target.classList.add("in");
+            io.unobserve(e.target);
+          }
+        });
+      },
+      { threshold: 0.1 }
+    );
+    els.forEach((el) => io.observe(el));
+    return () => io.disconnect();
+  }, []);
+
   return (
-    <main className="text-gray-400 bg-blue-900 body-font">
+    <>
       <Navbar />
-      <About />
-      <Projects />
-      <Work />
-      <Awards />
-      <Activities/>
-      <Skills />
-      <Hobbies/>
-      <SocialFollow />
-    </main>
+      <main>
+        <Hero />
+        <Projects />
+        <Experience />
+        <Awards />
+        <Skills />
+        <Contact />
+      </main>
+    </>
   );
 }
-
-// export default function App() {
-//   return (
-//     <main className="text-gray-400 bg-gray-900 body-font">
-//       <Navbar />
-//       <About />
-//       <Projects />
-//       <Skills />
-//       <Testimonials />
-//       <Contact />
-//     </main>
-//   );
-// }

@@ -1,28 +1,35 @@
-import { StarIcon, DotsCircleHorizontalIcon } from "@heroicons/react/solid";
 import React from "react";
-import { awards } from "../data";
+import { awards, activities } from "../data";
+import { asset } from "./helpers";
 
 export default function Awards() {
   return (
-    <section id="awards">
-      <div className="container px-5 py-10 mx-auto ">
-        <div className="text-center mb-20">
-          <StarIcon className="w-10 inline-block mb-4" />
-          <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
-            Awards
-          </h1>
-          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-          </p>
+    <section className="block" id="awards">
+      <div className="wrap">
+        <div className="sec-head reveal">
+          <span className="idx mono">04.</span>
+          <h2>Awards &amp; honors</h2>
+          <span className="rule"></span>
         </div>
-        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2 bg-gray-800 bg-opacity-40 rounded">
-          {awards.map((skill) => (
-            <div key={skill} className="p-2 sm:w-1/2 w-full">
-              <div className="rounded flex h-full items-center">
-                <StarIcon className="text-yellow-400 w-3 h-3 flex-shrink-0 mr-4" />
-                <span className="title-font font-small text-white">
-                  {skill}
-                </span>
-              </div>
+        <div className="awards-grid">
+          {awards.map((a, i) => (
+            <div className="award reveal" key={i}>
+              <i className="fa-solid fa-star"></i>
+              <span>{a}</span>
+            </div>
+          ))}
+        </div>
+
+        <div className="sec-head reveal" style={{ marginTop: 56 }}>
+          <span className="idx mono">04b.</span>
+          <h2>Activities</h2>
+          <span className="rule"></span>
+        </div>
+        <div className="act-grid">
+          {activities.map((a, i) => (
+            <div className="act reveal" key={i}>
+              <img src={asset(a.image)} alt="" loading="lazy" />
+              <p>{a.title}</p>
             </div>
           ))}
         </div>
