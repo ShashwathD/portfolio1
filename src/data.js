@@ -125,7 +125,7 @@ export const experience = [
     when: "May 2026 – Jul 2026",
     description:
       "Selected as one of 118 interns out of 3,500+ applicants (~3% acceptance) for the on-site SEES Internship. Designed an Apollo-inspired, Artemis-class lunar mission to the South Pole — including a custom lunar lander and a robotics stack for exploring and sampling Permanently Shadowed Regions (PSRs). Our team will present at the AGU Annual Meeting 2026.",
-    image: "/logo-nasasees.svg",
+    image: "/logo-sees.png",
     link: "https://www.nasa.gov",
   },
   {
@@ -143,7 +143,7 @@ export const experience = [
     when: "May 2025 – Aug 2025",
     description:
       "Selected as a sophomore for MIT BWSI, a highly selective STEM program. Led a team of five researching how different AI systems respond to ethical dilemmas versus humans, and built an advanced Unity game to test it. Won the Above and Beyond Human Collaboration award, plus 2 awards in a Design/Coding Challenge for a 2-player 3D FPV version of 2048.",
-    image: "/logo-mitbwsi.svg",
+    image: "/logo-mit.png",
     link: "https://www.youtube.com/watch?v=rba_D1k4kpc&t=1894s",
   },
   {
@@ -152,33 +152,78 @@ export const experience = [
     when: "Jun 2024 – Aug 2024",
     description:
       "Built a dual-agent LLM system to control and monitor a drone — one agent flying it and another supervising — using ArduPilot for flight control and Gazebo for simulation.",
-    image: "/logo-ucsc.svg",
+    image: "/logo-sip.png",
     link: "https://docs.google.com/presentation/d/1B4Rikq8fIZLxuSw2LVKkMyy3BPcfZ0CvlNMm17j6UWw/edit",
   },
   {
-    title: "iOS App Developer & Machine Learning Enthusiast",
+    title: "MIT Beaver Works — You Can Program Autonomous Cars",
+    org: "Massachusetts Institute of Technology",
+    when: "Mar 2025 – May 2025",
+    description:
+      "Part of MIT's spring 2025 cohort for a 12-week hands-on STEM program on programming autonomous cars. Learned MIT's RACECAR platform and wrote code to autonomously race a simulated RACECAR through an obstacle course.",
+    image: "/logo-mit.png",
+    link: "https://beaverworks.ll.mit.edu/CMS/bw/bwsi",
+  },
+  {
+    title: "iOS, AR/VR & Unity Game Developer",
     org: "Self-Employed",
     when: "2019 – Present",
     description:
-      "Designed and shipped several iOS apps and games, teaching myself ML and spatial computing along the way.",
+      "Building iOS apps and games since 7th grade. Shipped 13 iOS apps and 5 Unity games (including a VR experience for the NASA Space Apps Challenge), 5 augmented-reality apps with ARKit, and 8 machine-learning apps using CoreML, Gemini, and GPT.",
     image: "/ios.jpg",
     link: "#projects",
   },
   {
-    title: "National Honor Society STTAR Tutor",
-    org: "Lynbrook High School",
-    when: "2025 – Present",
+    title: "Bay Section Parliamentarian",
+    org: "California FBLA",
+    when: "May 2025 – Present",
     description:
-      "Tutor high school students in English, Math, Physics, and Computer Science.",
-    image: "/Lynbrook.png",
-    link: "https://lhs.fuhsd.org/guidance-student-support/sttar-tutoring",
+      "Elected to the Bay Section Officer Team, helping coordinate the events and conferences held throughout the year across the Bay Section and California FBLA.",
+    image: "/logo-fbla2.png",
+    link: "https://cafbla.org",
   },
   {
-    title: "President · VP Programs · VP Philanthropy",
-    org: "Boys Team Charity — Saratoga",
-    when: "2018 – Present",
+    title: "Head of Miller Outreach",
+    org: "Lynbrook Speech & Debate",
+    when: "Apr 2025 – Present",
     description:
-      "Held multiple leadership positions organizing community service and philanthropy initiatives.",
+      "Lead a middle-school speech and debate outreach — running drills, mock debates, and lectures, teaching the class when the coach is unavailable, and recruiting and managing 10 Lynbrook volunteers.",
+    image: "/nsda.png",
+    link: "#",
+  },
+  {
+    title: "Youth Advisory Council Project Lead",
+    org: "San Jose District 1 Youth Advisory Council",
+    when: "Aug 2024 – Present",
+    description:
+      "Headed the organization of an event connecting local organizations with youth, drawing over 70 attendees.",
+    image: "/logo-sanjose.png",
+    link: "#",
+  },
+  {
+    title: "Youth Activity Board Member",
+    org: "City of Cupertino",
+    when: "Jan 2026 – Present",
+    description:
+      "Selected to the City of Cupertino's Youth Activity Board, helping shape youth programs and activities for the city.",
+    image: "/logo-cupertino2.png",
+    link: "#",
+  },
+  {
+    title: "SAT Math & English Tutor",
+    org: "Schoolhouse.world",
+    when: "2024 – Present",
+    description:
+      "Volunteer tutor on Schoolhouse.world, running free live SAT Math and English prep sessions to help students prepare for the exam.",
+    image: "/logo-schoolhouse.svg",
+    link: "https://schoolhouse.world",
+  },
+  {
+    title: "Class President · VP",
+    org: "Boys Team Charity — Saratoga",
+    when: "2023 – Present",
+    description:
+      "Plan class meetings for the BTC Class of 2027 and arrange philanthropy activities and speaker events; served as Class Lead and VP in 2023.",
     image: "/btc.png",
     link: "https://www.boysteamcharity.org",
   },
@@ -208,9 +253,24 @@ export const activities = [
       "Varsity Public Forum Debate — advanced through elimination rounds at major tournaments including Stanford, Berkeley, and the Bronx/New York Invitational.",
   },
   {
-    image: "/FBLA.jpg",
+    image: "/logo-fbla2.png",
     title:
       "Future Business Leaders of America (FBLA) — competitive member and Nationals qualifier.",
+  },
+  {
+    image: "/logo-vex.svg",
+    title:
+      "VEX Robotics Mentor — mentored at the Girls VEX Robotics Workshop (Sunnyvale) across four summers (2021–2024), helping participants build robots for VEX VRC competitions.",
+  },
+  {
+    image: "/btc.png",
+    title:
+      "Boys Team Charity Volunteer — 100+ volunteer hours each year (2021–present) across philanthropies including Saratoga Library, Bike Exchange, Via West, and Shining Stars.",
+  },
+  {
+    image: "/logo-hackathon.svg",
+    title:
+      "Supernova Lynbrook Hackathon — served on the organizing committee, driving outreach and helping ensure the event ran smoothly.",
   },
 ];
 
