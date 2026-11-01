@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="wrap hero-grid">
         <div>
           <div className="hi mono">Hi, my name is</div>
-          <h1>Shashwath Dinesh.</h1>
+          <h1>Shashwath Dinesh</h1>
           <span className="role">
             Senior @ Lynbrook High · Embedded Systems · iOS · AR/VR · ML · Robotics
           </span>

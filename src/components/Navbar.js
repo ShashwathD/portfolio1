@@ -16,9 +16,6 @@ export default function Navbar() {
   return (
     <header className="nav">
       <div className="wrap nav-inner">
-        <a href="#top" className="brand" onClick={close}>
-          shashwath<span>.</span>
-        </a>
         <nav className={`links${open ? " open" : ""}`}>
           {LINKS.map(([num, label, href]) => (
             <a key={href} href={href} onClick={close}>
