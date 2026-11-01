@@ -8,7 +8,6 @@ export default function Contact() {
         <div className="wrap">
           <div className="contact reveal">
             <div className="idx mono">09. Contact</div>
-            <h2>Get in touch</h2>
             <button
               type="button"
               className="btn btn-primary"
