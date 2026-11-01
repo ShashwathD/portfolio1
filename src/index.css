@@ -83,8 +83,7 @@ section.block{padding:clamp(56px,8vw,90px) 0}
 
 /* timeline */
 .timeline{display:flex;flex-direction:column;gap:16px}
-.titem{display:grid;grid-template-columns:56px 1fr;gap:18px;background:var(--elev);border:1px solid var(--border);border-radius:10px;padding:20px;transition:.25s}
-.titem:hover{border-color:var(--border-2);transform:translateX(4px)}
+.titem{display:grid;grid-template-columns:56px 1fr;gap:18px;background:var(--elev);border:1px solid var(--border);border-radius:10px;padding:20px}
 .titem .logo{width:56px;height:56px;border-radius:9px;object-fit:cover;background:#fff;border:1px solid var(--border)}
 .titem .meta{display:flex;flex-wrap:wrap;align-items:baseline;gap:10px}
 .titem h3{font-size:1.05rem}
@@ -94,30 +93,26 @@ section.block{padding:clamp(56px,8vw,90px) 0}
 
 /* awards */
 .awards-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
-.award{display:flex;gap:12px;align-items:flex-start;background:var(--elev);border:1px solid var(--border);border-radius:8px;padding:14px 16px;transition:.2s}
-.award:hover{border-color:var(--border-2)}
+.award{display:flex;gap:12px;align-items:flex-start;background:var(--elev);border:1px solid var(--border);border-radius:8px;padding:14px 16px}
 .award i{color:var(--accent);font-size:.85rem;margin-top:6px}
 .award span{font-size:.9rem}
 
 /* activities */
 .act-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
-.act{display:flex;gap:16px;align-items:center;background:var(--elev);border:1px solid var(--border);border-radius:10px;padding:18px;transition:.25s}
-.act:hover{border-color:var(--border-2);transform:translateY(-3px)}
+.act{display:flex;gap:16px;align-items:center;background:var(--elev);border:1px solid var(--border);border-radius:10px;padding:18px}
 .act img{width:60px;height:60px;border-radius:10px;object-fit:contain;background:#fff;padding:5px;flex-shrink:0}
 .act p{font-size:.9rem;color:var(--muted)}
 
 /* skills */
 .skills-wrap{display:flex;flex-wrap:wrap;gap:10px}
-.skill{display:inline-flex;align-items:center;gap:9px;background:var(--elev);border:1px solid var(--border);padding:10px 16px;border-radius:7px;font-size:.88rem;transition:.2s}
-.skill:hover{border-color:var(--border-2);color:var(--head);transform:translateY(-3px)}
+.skill{display:inline-flex;align-items:center;gap:9px;background:var(--elev);border:1px solid var(--border);padding:10px 16px;border-radius:7px;font-size:.88rem}
 .skill i{color:var(--accent)}
 
 /* hobbies */
 .hobbies-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:12px}
-.hobby{background:var(--elev);border:1px solid var(--border);border-radius:9px;padding:16px;transition:.2s}
-.hobby:hover{border-color:var(--border-2);transform:translateY(-3px)}
+.hobby{background:var(--elev);border:1px solid var(--border);border-radius:9px;padding:16px}
 .hobby i{font-size:1.2rem;color:var(--accent);margin-bottom:9px;display:block}
-.hobby h4{font-size:.96rem;margin-bottom:3px}
+.hobby h4{font-size:.96rem;margin-bottom:0}
 .hobby p{font-size:.78rem;color:var(--faint)}
 
 /* contact */
@@ -127,6 +122,18 @@ section.block{padding:clamp(56px,8vw,90px) 0}
 .contact p{color:var(--muted);max-width:460px;margin:0 auto 30px}
 footer{border-top:1px solid var(--border);padding:30px 0;margin-top:70px;text-align:center;color:var(--faint);font-size:.82rem;font-family:'JetBrains Mono',monospace}
 footer .socials{justify-content:center;margin-top:16px}
+
+/* email modal */
+.modal-overlay{position:fixed;inset:0;z-index:100;display:flex;align-items:center;justify-content:center;padding:24px;background:rgba(4,8,18,.72);backdrop-filter:blur(4px);animation:fadein .15s ease}
+.modal{background:var(--elev);border:1px solid var(--border-2);border-radius:16px;padding:30px 26px 24px;max-width:380px;width:100%;position:relative;text-align:center;box-shadow:0 30px 80px -20px rgba(0,0,0,.6)}
+.modal h3{font-size:1.3rem;margin-bottom:6px}
+.modal>p{color:var(--muted);font-size:.92rem;margin-bottom:22px}
+.modal-actions{display:flex;flex-direction:column;gap:10px}
+.modal-actions .btn{justify-content:center;width:100%}
+.modal-email{margin-top:16px;color:var(--faint);font-size:.8rem;font-family:'JetBrains Mono',monospace}
+.modal-close{position:absolute;top:10px;right:14px;background:none;border:none;color:var(--muted);font-size:1.5rem;line-height:1;cursor:pointer}
+.modal-close:hover{color:var(--head)}
+@keyframes fadein{from{opacity:0}to{opacity:1}}
 
 .reveal{opacity:0;transform:translateY(24px);transition:opacity .6s ease,transform .6s ease}
 .reveal.in{opacity:1;transform:none}

@@ -8,23 +8,26 @@ export default function Hero() {
         <div>
           <div className="hi mono">Hi, my name is</div>
           <h1>Shashwath Dinesh.</h1>
-          <h2>I build things that think.</h2>
           <span className="role">
-            Senior @ Lynbrook High · iOS · AR/VR · ML · Robotics
+            Senior @ Lynbrook High · Embedded Systems · iOS · AR/VR · ML · Robotics
           </span>
           <p>
-            I've been building iOS apps and games since seventh grade. Since then I've taught
-            myself machine learning, written custom algorithms, and expanded into spatial
-            computing with AR/VR and robotics. At my core, I'm a creator who loves using
-            technology to solve real problems.
+            I've involved myself in electrical, mechanical, and software engineering since
+            seventh grade. My projects include work with embedded systems, iOS apps, AR/VR,
+            robotics, etc. In general, I enjoy building projects for fun but also to solve
+            real world issues.
           </p>
           <div className="cta-row">
             <a href="#projects" className="btn btn-primary">
               <i className="fa-solid fa-arrow-down"></i> See my work
             </a>
-            <a href="mailto:shashwathdinesh7@gmail.com" className="btn btn-ghost">
+            <button
+              type="button"
+              className="btn btn-ghost"
+              onClick={() => window.dispatchEvent(new Event("open-email"))}
+            >
               <i className="fa-solid fa-envelope"></i> Get in touch
-            </a>
+            </button>
           </div>
           <Socials />
         </div>

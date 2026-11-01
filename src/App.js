@@ -6,6 +6,7 @@ import Experience from "./components/Experience";
 import Awards from "./components/Awards";
 import Skills from "./components/Skills";
 import Contact from "./components/Contact";
+import EmailModal from "./components/EmailModal";
 
 export default function App() {
   // Scroll-reveal animation for elements with the .reveal class.
@@ -37,6 +38,7 @@ export default function App() {
         <Skills />
         <Contact />
       </main>
+      <EmailModal />
     </>
   );
 }

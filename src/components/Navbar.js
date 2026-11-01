@@ -2,10 +2,11 @@ import React, { useState } from "react";
 
 const LINKS = [
   ["01", "Projects", "#projects"],
-  ["02", "Research", "#research"],
-  ["03", "Experience", "#experience"],
-  ["04", "Awards", "#awards"],
-  ["05", "Skills", "#skills"],
+  ["02", "Programs", "#research"],
+  ["03", "Robotics", "#robotics"],
+  ["04", "Experience", "#experience"],
+  ["05", "Awards", "#awards"],
+  ["07", "Skills", "#skills"],
 ];
 
 export default function Navbar() {

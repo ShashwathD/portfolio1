@@ -4,7 +4,7 @@
 export const projects = [
   {
     title: "IBDiary",
-    tag: "FBLA Nationals Finalist '26",
+    tag: "Live on the App Store",
     stack: "Swift · SwiftUI · iOS",
     description:
       "An iOS app that helps IBD (Inflammatory Bowel Disease) patients track symptoms, manage medications, plan meals around trigger foods, and follow IBD-friendly workouts. The centerpiece of my FBLA Capstone — a National Leadership Conference Finalist. Live on the App Store.",
@@ -73,7 +73,7 @@ export const research = [
     tag: "NASA SEES '26",
     stack: "Lunar Mission · Robotics · Research",
     description:
-      "As a NASA Center for Space Research SEES intern (1 of 118 from 3,500+ applicants), designed an Apollo-inspired, Artemis-class lunar mission to the South Pole — a custom lunar lander and a robotics stack for sampling Permanently Shadowed Regions (PSRs). Presenting at the AGU Annual Meeting 2026.",
+      "Designed and proposed ASTRA: an Apollo-inspired, Artemis-class lunar mission to the South Pole, featuring a custom lunar lander optimized for a quick, efficient mission and a robotics stack built for mapping, sub-surface mapping, and sampling of Permanently Shadowed Regions (PSRs).",
     image: "/nasa-sees.jpg",
     link: "https://youtu.be/xocIKrn_aMg?t=298",
   },
@@ -82,7 +82,7 @@ export const research = [
     tag: "MIT BWSI",
     stack: "Unity · AI · Research",
     description:
-      "A Unity game based on research into how AI reacts to ethical dilemmas compared to humans.",
+      "A research project that evaluated the ethics of different AI systems using a Unity-powered zombie apocalypse game.",
     image: "/sga105.png",
     link: "https://www.youtube.com/watch?v=rba_D1k4kpc&t=1894s",
   },
@@ -124,7 +124,7 @@ export const experience = [
     org: "NASA Center for Space Research",
     when: "May 2026 – Jul 2026",
     description:
-      "Selected as one of 118 interns out of 3,500+ applicants (~3% acceptance) for the on-site SEES Internship. Designed an Apollo-inspired, Artemis-class lunar mission to the South Pole — including a custom lunar lander and a robotics stack for exploring and sampling Permanently Shadowed Regions (PSRs). Our team will present at the AGU Annual Meeting 2026.",
+      "Designed and proposed ASTRA, an Apollo-inspired, Artemis-class lunar mission to the South Pole — a custom lunar lander optimized for a quick, efficient mission and a robotics stack built for mapping, sub-surface mapping, and sampling of Permanently Shadowed Regions (PSRs).",
     image: "/logo-sees.png",
     link: "https://www.nasa.gov",
   },
@@ -142,7 +142,7 @@ export const experience = [
     org: "Massachusetts Institute of Technology",
     when: "May 2025 – Aug 2025",
     description:
-      "Selected as a sophomore for MIT BWSI, a highly selective STEM program. Led a team of five researching how different AI systems respond to ethical dilemmas versus humans, and built an advanced Unity game to test it. Won the Above and Beyond Human Collaboration award, plus 2 awards in a Design/Coding Challenge for a 2-player 3D FPV version of 2048.",
+      "A research project that evaluated the ethics of different AI systems using a Unity-powered zombie apocalypse game. Also won the Above and Beyond Human Collaboration award, plus 2 awards in a Design/Coding Challenge for a 2-player 3D FPV version of 2048.",
     image: "/logo-mit.png",
     link: "https://www.youtube.com/watch?v=rba_D1k4kpc&t=1894s",
   },

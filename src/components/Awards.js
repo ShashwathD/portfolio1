@@ -7,7 +7,7 @@ export default function Awards() {
     <section className="block" id="awards">
       <div className="wrap">
         <div className="sec-head reveal">
-          <span className="idx mono">04.</span>
+          <span className="idx mono">05.</span>
           <h2>Awards &amp; honors</h2>
           <span className="rule"></span>
         </div>
@@ -21,7 +21,7 @@ export default function Awards() {
         </div>
 
         <div className="sec-head reveal" style={{ marginTop: 56 }}>
-          <span className="idx mono">04b.</span>
+          <span className="idx mono">06.</span>
           <h2>Activities</h2>
           <span className="rule"></span>
         </div>

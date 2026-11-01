@@ -6,7 +6,7 @@ export default function Skills() {
     <section className="block" id="skills">
       <div className="wrap">
         <div className="sec-head reveal">
-          <span className="idx mono">05.</span>
+          <span className="idx mono">07.</span>
           <h2>Skills &amp; tools</h2>
           <span className="rule"></span>
         </div>
@@ -19,7 +19,7 @@ export default function Skills() {
         </div>
 
         <div className="sec-head reveal" style={{ marginTop: 56 }} id="hobbies">
-          <span className="idx mono">05b.</span>
+          <span className="idx mono">08.</span>
           <h2>Hobbies</h2>
           <span className="rule"></span>
         </div>
@@ -28,7 +28,6 @@ export default function Skills() {
             <div className="hobby reveal" key={h.title}>
               <i className={h.icon}></i>
               <h4>{h.title}</h4>
-              <p>{h.detail}</p>
             </div>
           ))}
         </div>
